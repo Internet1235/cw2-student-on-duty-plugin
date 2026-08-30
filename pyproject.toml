@@ -1,6 +1,6 @@
 [project]
 name = "com.Internet123.student-on-duty"
-version = "1.0.0"
+version = "1.0.1"
 description = "一个显示今日值日生信息的插件"
 authors = [
     {name = "月下的桃子"},
