@@ -58,7 +58,7 @@ class Plugin(CW2Plugin):
             if index is None:
                 self.duty_names = "无值日生"
             else:
-                self.duty_names = "\n".join(data_list[index])
+                self.duty_names = "\n\n".join(data_list[index])
         QTimer.singleShot(0, lambda: self.contentUpdated.emit(self.duty_names))
 
     def on_load(self):
