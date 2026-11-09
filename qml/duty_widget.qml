@@ -15,7 +15,8 @@ Widget {
         contentWidth: width
         contentHeight: contentLayout.height
         clip: true
-        interactive: true
+        // 仅自动滚动，避免拦截宿主的点击收回事件。
+        interactive: false
 
         ColumnLayout {
             id: contentLayout
